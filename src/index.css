@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:regular,700,800);
+
+:root {
+  /* Primary */
+
+  --soft-orange: hsl(35, 77%, 62%);
+  --soft-red: hsl(5, 85%, 63%);
+
+  /* Neutral */
+
+  --off-white: hsl(36, 100%, 99%);
+  --gray-blue: hsl(233, 8%, 79%);
+  --dark-gray-blue: hsl(236, 13%, 42%);
+  --very-dark-blue: hsl(240, 100%, 5%);
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: normal;
+  list-style-type: none;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
